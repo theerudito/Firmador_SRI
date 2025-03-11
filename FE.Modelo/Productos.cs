@@ -9,10 +9,8 @@
         public decimal Precio_Unitario { get; set; }
         public decimal Descuento { get; set; }
 
-        public static List<Productos> Productos_Lista()
+        public static List<Productos> _listas_Productos = new List<Productos>
         {
-            return new List<Productos>
-            {
                 new Productos
                 {
                     IdProductos = 1,
@@ -22,6 +20,7 @@
                     Precio_Unitario = 10,
                     Descuento = 0
                 },
+
                 new Productos
                 {
                     IdProductos = 2,
@@ -31,6 +30,7 @@
                     Precio_Unitario = 15,
                     Descuento = 0
                 },
+
                 new Productos
                 {
                     IdProductos = 3,
@@ -40,7 +40,6 @@
                     Precio_Unitario = 20,
                     Descuento = 0
                 }
-            };
-        }
+        };
     }
 }
