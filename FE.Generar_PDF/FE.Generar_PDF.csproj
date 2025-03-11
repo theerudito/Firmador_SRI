@@ -12,7 +12,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FE.Clave_Acceso\FE.Clave_Acceso.csproj" />
-    <ProjectReference Include="..\FE.Generador_Clave_Acceso\FE.Clave_Acceso.csproj" />
     <ProjectReference Include="..\FE.Helpers\FE.Helpers.csproj" />
     <ProjectReference Include="..\FE.Modelo\FE.Modelo.csproj" />
   </ItemGroup>
