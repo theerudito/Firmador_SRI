@@ -10,6 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FE.Generar_PDF\FE.Generar_PDF.csproj" />
     <ProjectReference Include="..\FE.Generar_XML\FE.Generar_XML.csproj" />
+    <ProjectReference Include="..\FE.Helpers\FE.Helpers.csproj" />
   </ItemGroup>
 
 </Project>

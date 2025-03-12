@@ -310,7 +310,7 @@ namespace FE.Helpers
                 }
         };
 
-        public static List<Tipos_Iva> _Lista_Iva = new List<Tipos_Iva>
+        public static List<Tipos_Iva> _lista_Iva = new List<Tipos_Iva>
         {
             new Tipos_Iva
             {
@@ -392,6 +392,60 @@ namespace FE.Helpers
                 Fecha_Desde = new DateTime(20230101),
                 Fecha_Hasta = new DateTime(21001231)
             }
+        };
+
+        public static List<Ciudades> _lista_Ciudades = new List<Ciudades>
+        {
+            new Ciudades { IdCiudades = 1, Descripcion = "SIN CIUDAD" },
+            new Ciudades { IdCiudades = 2, Descripcion = "24 DE MAYO" },
+            new Ciudades { IdCiudades = 3, Descripcion = "ABDON CALDERÓN" },
+            new Ciudades { IdCiudades = 4, Descripcion = "AGUARICO" },
+            new Ciudades { IdCiudades = 5, Descripcion = "ALAUSÍ" },
+            new Ciudades { IdCiudades = 6, Descripcion = "ALFREDO BAQUERIZO MORENO (JUJÁN)" },
+            new Ciudades { IdCiudades = 7, Descripcion = "AMBATO" },
+            new Ciudades { IdCiudades = 8, Descripcion = "ANTONIO ANTE" },
+            new Ciudades { IdCiudades = 9, Descripcion = "ARAJUNO" },
+            new Ciudades { IdCiudades = 10, Descripcion = "ARCHIDONA" },
+            new Ciudades { IdCiudades = 11, Descripcion = "ARENILLAS" },
+            new Ciudades { IdCiudades = 12, Descripcion = "ATACAMES" },
+            new Ciudades { IdCiudades = 13, Descripcion = "ATAHUALPA" },
+            new Ciudades { IdCiudades = 14, Descripcion = "AZOGUES" },
+            new Ciudades { IdCiudades = 15, Descripcion = "BABA" },
+            new Ciudades { IdCiudades = 16, Descripcion = "BABAHOYO" },
+            new Ciudades { IdCiudades = 17, Descripcion = "BALAO" },
+            new Ciudades { IdCiudades = 18, Descripcion = "BALSAS" },
+            new Ciudades { IdCiudades = 19, Descripcion = "BALZAR" },
+            new Ciudades { IdCiudades = 20, Descripcion = "BAÑOS DE AGUA SANTA" },
+            new Ciudades { IdCiudades = 21, Descripcion = "BIBLIÁN" },
+            new Ciudades { IdCiudades = 22, Descripcion = "BOLÍVAR" },
+            new Ciudades { IdCiudades = 23, Descripcion = "BOLÍVAR" },
+            new Ciudades { IdCiudades = 24, Descripcion = "BUENA FÉ" },
+            new Ciudades { IdCiudades = 25, Descripcion = "CALUMA" },
+            new Ciudades { IdCiudades = 26, Descripcion = "CALVAS" },
+            new Ciudades { IdCiudades = 27, Descripcion = "CAMILO PONCE ENRÍQUEZ" },
+            new Ciudades { IdCiudades = 28, Descripcion = "CAÑAR" },
+            new Ciudades { IdCiudades = 29, Descripcion = "CARLOS JULIO AROSEMENA TOLA" },
+            new Ciudades { IdCiudades = 30, Descripcion = "CASCALES" },
+            new Ciudades { IdCiudades = 31, Descripcion = "CATAMAYO" },
+            new Ciudades { IdCiudades = 32, Descripcion = "CAYAMBE" },
+            new Ciudades { IdCiudades = 33, Descripcion = "CELICA" },
+            new Ciudades { IdCiudades = 34, Descripcion = "CENTINELA DEL CÓNDOR" },
+            new Ciudades { IdCiudades = 35, Descripcion = "CEVALLOS" },
+            new Ciudades { IdCiudades = 36, Descripcion = "CHAGUARPAMBA" },
+            new Ciudades { IdCiudades = 37, Descripcion = "CHAMBO" },
+            new Ciudades { IdCiudades = 38, Descripcion = "CHILLA" },
+            new Ciudades { IdCiudades = 39, Descripcion = "CHILLANES" },
+            new Ciudades { IdCiudades = 40, Descripcion = "CHIMBO" },
+            new Ciudades { IdCiudades = 41, Descripcion = "CHINCHIPE" },
+            new Ciudades { IdCiudades = 42, Descripcion = "CHONE" },
+            new Ciudades { IdCiudades = 43, Descripcion = "CHORDELEG" },
+            new Ciudades { IdCiudades = 44, Descripcion = "CHUNCHI" },
+            new Ciudades { IdCiudades = 45, Descripcion = "COLIMES" },
+            new Ciudades { IdCiudades = 46, Descripcion = "COLTA" },
+            new Ciudades { IdCiudades = 47, Descripcion = "CORONEL MARCELINO MARIDUEÑA" },
+            new Ciudades { IdCiudades = 48, Descripcion = "COTACACHI" },
+            new Ciudades { IdCiudades = 49, Descripcion = "CUENCA" },
+            new Ciudades { IdCiudades = 50, Descripcion = "CUMANDÁ" },
         };
     }
 }
