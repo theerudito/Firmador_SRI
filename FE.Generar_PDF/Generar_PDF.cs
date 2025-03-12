@@ -7,9 +7,9 @@ using QuestPDF.Infrastructure;
 
 namespace FE.Generar_PDF
 {
-    public class Factura
+    public class Generar_PDF
     {
-        public static void CrearPDF()
+        public static void Crear_Factura_PDF()
         {
             QuestPDF.Settings.License = LicenseType.Community;
 
@@ -103,7 +103,7 @@ namespace FE.Generar_PDF
 
                         // productos
 
-                        foreach (var item in Productos._listas_Productos)
+                        foreach (var item in Datos_Iniciales._listas_Productos)
                         {
                             col.Item().BorderBottom(0.5f).BorderColor("#7C11F7").Row(row =>
                             {

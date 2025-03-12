@@ -4,6 +4,6 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Factura.CrearPDF();
+        Generar_PDF.Crear_Factura_PDF();
     }
 }

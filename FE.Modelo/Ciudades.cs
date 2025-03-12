@@ -1,8 +1,8 @@
 ﻿namespace FE.Modelo
 {
-    public class Tipo_Emision
+    public class Ciudades
     {
-        public int Id { get; set; }
+        public int IdCiudades { get; set; }
         public string Descripcion { get; set; } = string.Empty;
     }
 }

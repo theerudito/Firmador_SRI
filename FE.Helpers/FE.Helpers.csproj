@@ -11,4 +11,8 @@
     <PackageReference Include="ZXing.Net.Bindings.SkiaSharp" Version="0.16.21" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FE.Modelo\FE.Modelo.csproj" />
+  </ItemGroup>
+
 </Project>
