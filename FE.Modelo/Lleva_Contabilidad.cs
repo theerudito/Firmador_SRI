@@ -1,8 +1,7 @@
 ﻿namespace FE.Modelo
 {
-    public class Lleva_Contabilidad
+    public class Lleva_Contabilidad : Adicionales
     {
-        public int Id { get; set; }
-        public string Descripcion { get; set; } = string.Empty;
+        public int Id_Lleva_Contabilidad { get; set; }
     }
 }

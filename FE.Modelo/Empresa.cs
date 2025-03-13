@@ -1,8 +1,8 @@
 ﻿namespace FE.Modelo
 {
-    public class Empresa
+    public class Empresa : Adicionales
     {
-        public int IdEmpresa { get; set; }
+        public int Id_Empresa { get; set; }
         public string RUC { get; set; } = string.Empty;
         public string Razon_Social { get; set; } = string.Empty;
         public string Nombre_Comercial { get; set; } = string.Empty;

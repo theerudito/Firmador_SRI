@@ -1,6 +1,6 @@
 ﻿namespace FE.Modelo
 {
-    public class Aducional
+    public class Adicionales
     {
         public bool Estado { get; set; }
         public string Descripcion { get; set; } = string.Empty;

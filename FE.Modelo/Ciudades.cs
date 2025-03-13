@@ -1,8 +1,8 @@
 ﻿namespace FE.Modelo
 {
-    public class Ciudades
+    public class Ciudades : Adicionales
     {
-        public int IdCiudades { get; set; }
-        public string Descripcion { get; set; } = string.Empty;
+        public int Id_Ciudades { get; set; }
+        public virtual List<Clientes> Navegacion_Clientes { get; set; } = new List<Clientes>();
     }
 }

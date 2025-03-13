@@ -1,8 +1,8 @@
 ﻿namespace FE.Modelo
 {
-    public class Facturas
+    public class Facturas : Adicionales
     {
-        public int IdFactura { get; set; }
+        public int Id_Factura { get; set; }
 
         public byte[] XML { get; set; } = null!;
 

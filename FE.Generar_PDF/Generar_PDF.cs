@@ -1,6 +1,5 @@
 ﻿using FE.Clave_Acceso;
 using FE.Helpers;
-using FE.Modelo;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using QuestPDF.Infrastructure;
@@ -57,7 +56,7 @@ namespace FE.Generar_PDF
                                 facturaRow.RelativeItem().AlignCenter().Width(150).Height(20).AlignMiddle().AlignCenter().Text($"FACTURA: 001-002-{Datos._numero_comprobante("123")}").FontColor("#FFF").FontSize(10);
                             });
 
-                            facturaCol.Item().PaddingTop(5).PaddingLeft(10).Text($"FECHA AUTORIZACION: {DateTime.Now.ToString("dd/MM/yyyy")} - {DateTime.Now.ToString("HH-mm-ss")}").FontSize(8);
+                            facturaCol.Item().PaddingTop(5).PaddingLeft(10).Text($"FECHA AUTORIZACION: {DateTime.Now.ToString("dd/MM/yyyy")} - Hora: {DateTime.Now.ToString("HH:mm:ss")}").FontSize(8);
                             facturaCol.Item().PaddingTop(2).PaddingLeft(10).Text($"AMBIENTE: {(Datos._ambiente("PRUEBAS") == "1" ? "PRUEBAS" : "PRODUCCION")}").FontSize(8);
                             facturaCol.Item().PaddingTop(2).PaddingLeft(10).Text($"EMISION: {(Datos._tipo_emision("NORMAL") == "1" ? "NORMAL" : "FACTURANDO")}").FontSize(8);
 

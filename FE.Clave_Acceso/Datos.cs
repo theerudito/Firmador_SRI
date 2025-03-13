@@ -6,14 +6,19 @@
         public static string _fecha_emision(string fecha)
         {
             DateTime fechaConvertida;
-            if (DateTime.TryParse(fecha, out fechaConvertida))
+            string formatoEntrada = "dd/MM/yyyy";
+
+            if (DateTime.TryParseExact(fecha, formatoEntrada,
+                                       System.Globalization.CultureInfo.InvariantCulture,
+                                       System.Globalization.DateTimeStyles.None,
+                                       out fechaConvertida))
             {
                 return fechaConvertida.ToString("ddMMyyyy");
             }
             else
             {
                 Console.WriteLine("Fecha inválida.");
-                return "00000000";
+                return DateTime.Now.ToString("ddMMyyyy");
             }
         }
 
